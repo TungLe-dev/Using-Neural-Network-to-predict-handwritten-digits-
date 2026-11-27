@@ -29,7 +29,7 @@ W1, b1 = weights['W1'], weights['b1']
 W2, b2 = weights['W2'], weights['b2']
 W3, b3 = weights['W3'], weights['b3']
 
-IMAGE_PATH = "custom_data/image4.png"
+IMAGE_PATH = "custom_data/image6.png"
 
 canvas = change_image.analize(IMAGE_PATH)
 X_input = canvas.reshape(1, 784) / 255.0
